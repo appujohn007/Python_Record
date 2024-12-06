@@ -13,5 +13,5 @@ list2 = np.append(list, 6)
 print("appended list:", list2)
 
 list3 = np.delete(list, 3)
-print("appended list:", list3)
+print("deleted list:", list3)
 
