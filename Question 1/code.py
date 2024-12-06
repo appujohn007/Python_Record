@@ -1,5 +1,5 @@
 num1 = int(input("Enter Your 1st number to calculate: "))
-num1 = int(input("Enter Your 2st number to calculate: "))
+num2 = int(input("Enter Your 2st number to calculate: "))
 opr = input("Enter Your mathematical operator for calculation. \n eg (+, -, *, /): ")
 
 if opr == "+":
