@@ -5,7 +5,7 @@ import numpy as np
 
 #makes a list 
 list = np.array([1, 2, 3, 4, 5])
-print("Original list: {list}")
+print("Original list", list)
 
 #add number 6 to the list
 list2 = np.append(list, 6)
