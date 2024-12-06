@@ -7,6 +7,6 @@ conc_str = string1 + " " + string2
 
 print(conc_str)
 
-sub_str = conc_str[6:]
+sub_str = conc_str[6:-1]
 print(sub_str)
 
