@@ -1,3 +1,9 @@
+# Question: Simple desktop calculator using Python. Only the five basic arithmetic operators.
+
+
+
+
+
 num1 = int(input("Enter Your 1st number to calculate: "))
 num2 = int(input("Enter Your 2st number to calculate: "))
 opr = input("Enter Your mathematical operator for calculation. \n eg (+, -, *, /, %): ")
