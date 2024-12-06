@@ -15,3 +15,9 @@ print("appended list:", list2)
 list3 = np.delete(list, 3)
 print("deleted list:", list3)
 
+
+
+#Output 
+Original list [1 2 3 4 5]
+appended list: [1 2 3 4 5 6]
+deleted list: [1 2 3 5] 
