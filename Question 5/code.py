@@ -9,5 +9,5 @@ if mode in ["c", "C"]:
 
 if mode in ["f", "F"]:
   celsius = float(input("Enter your temperature value in Celsius to convert. eg: 45: "))
-  value = 9/5 * (celsius + 32)
+  value = 9/5 * celsius + 32
   print(f"{celsius}° Celsius is {value} Fahrenheit")
