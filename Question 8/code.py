@@ -9,5 +9,7 @@ def factorial(n):
 # Input: number to find the factorial
 num = int(input("Enter a number: "))
 
+fact = factorial(num) 
+
 # Call the factorial function and print the result
-print(f"The factorial of {num} is {factorial(num)}")
+print(f"The factorial of {num} is {fact}")
