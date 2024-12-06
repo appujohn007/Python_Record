@@ -10,3 +10,9 @@ print(conc_str)
 sub_str = conc_str[6:-1]
 print(sub_str)
 
+
+#Output
+
+Hello Everybody!
+Everybody 
+
