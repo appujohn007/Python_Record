@@ -6,3 +6,14 @@ for i in range(1, n+1):
   for j in range(1, i+1):
     print("*", end=" ")
   print()
+
+
+#Output 
+
+Enter Number of rows to be shown: 6
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * * * * 
