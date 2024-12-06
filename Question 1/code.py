@@ -27,3 +27,14 @@ else:
   print("Invalid operator passed...!")
 
 print(f"result: {result}")
+
+
+
+#Output
+"""
+Enter Your 1st number to calculate: 23
+Enter Your 2st number to calculate: 5
+Enter Your mathematical operator for calculation.
+ eg (+, -, *, /): +
+result: 28
+"""
