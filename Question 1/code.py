@@ -1,6 +1,6 @@
 num1 = int(input("Enter Your 1st number to calculate: "))
 num2 = int(input("Enter Your 2st number to calculate: "))
-opr = input("Enter Your mathematical operator for calculation. \n eg (+, -, *, /): ")
+opr = input("Enter Your mathematical operator for calculation. \n eg (+, -, *, /, %): ")
 
 if opr == "+":
   result = num1 + num2
