@@ -14,12 +14,14 @@ elif opr == "*":
 elif opr == "/":
   if num2 != 0:
     result = num1 / num2
-  else print("Division by zero not permitted...!")
+  else:
+    print("Division by zero not permitted...!")
 
 elif opr == "%":
   if num2 != 0:
     result = num1 % num2
-  else print("Division by zero not permitted...!")
+  else:
+    print("Division by zero not permitted...!")
 
 else:
   print("Invalid operator passed...!")
