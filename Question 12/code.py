@@ -7,8 +7,9 @@ Implement using functions
 
 import math 
 
-def check(largeside, len2, len3):
-  if largeside **2 == len2**2 + len3**2:
+def check(len1, len2, len3):
+  sides = sort([len1, len2, len3])
+  if sides[2] **2 == len[1]**2 + len[0]**2:
     return True
   else:
     return False
@@ -18,10 +19,9 @@ def main():
   len1 = int(input("Enter Length of 1st side: "))
   len2 = int(input("Enter Length of 1st side: "))
   len3 = int(input("Enter Length of 1st side: "))
-  largeside = max(len1, len2, len3)
-  print(largeside)
   
-  if check(largeside, len2, len3):
+  
+  if check(len1, len2, len3):
     print(f"The triangle with sides {len1}, {len2}, {len3} is right angled")
   else:
     print(f"The triangle with sides {len1}, {len2}, {len3} is not right angled") 
