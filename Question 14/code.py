@@ -8,7 +8,8 @@ def checker(num):
   if len(num) == 10 and num[0] in "789":
     return True 
 
-else False
+  else:
+    return False
 
 
 def main():
