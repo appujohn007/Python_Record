@@ -17,5 +17,7 @@ def checker(num):
 
 def main():
   num = input("Kindly enter your mobile number to check: ")
-  print(num)
+  status = checker(num)
+  
+  print(status)
 main()
