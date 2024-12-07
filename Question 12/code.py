@@ -8,7 +8,7 @@ Implement using functions
 import math 
 
 def check(largeside, len2, len3):
-  if largeside **2 == math.sqrt((len2**2 + len3**2)):
+  if largeside **2 == len2**2 + len3**2:
     return True
   else:
     return False
