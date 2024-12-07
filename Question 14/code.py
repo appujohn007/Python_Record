@@ -5,14 +5,17 @@ Rules: 1. Every number should contain exactly 10 digits. 2. The first digit shou
 """
 
 def checker(num):
-  if len(num) == 10 and num[0] in "789":
-    return True 
+  if len(num) == 10:
+    if num[0] in "789": 
+      return "Number is valid"
+    else:
+      return "Invalid Number: Number Don't start with 7, 8, or 9"
 
   else:
-    return False
+    return "Invalid Number: Number Don't have 10 digits"
 
 
 def main():
   num = input("Kindly enter your mobile number to check: ")
-
+  
 main()
