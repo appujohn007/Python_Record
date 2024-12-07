@@ -21,3 +21,8 @@ def main():
   
   print(status)
 main()
+
+#Output 
+
+Kindly enter your mobile number to check: 5987678907
+Invalid Number: Number Don't start with 7, 8, or 9 
