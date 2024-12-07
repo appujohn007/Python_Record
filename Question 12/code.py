@@ -8,7 +8,7 @@ Implement using functions
 import math 
 
 def check(l1, l2, l3):
-  if l1 **2 == math.sqrt({l2**2 + l3**2}):
+  if l1 **2 == math.sqrt((l2**2 + l3**2)):
     return True
   else:
     return False
