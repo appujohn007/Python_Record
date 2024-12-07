@@ -8,7 +8,7 @@ Implement using functions
 import math 
 
 def check(len1, len2, len3):
-  sides = sort([len1, len2, len3])
+  sides = sorted([len1, len2, len3])
   if sides[2] **2 == len[1]**2 + len[0]**2:
     return True
   else:
