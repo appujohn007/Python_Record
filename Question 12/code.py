@@ -29,3 +29,10 @@ def main():
 
 
 main()
+
+
+#Output 
+Enter Length of 1st side: 3
+Enter Length of 1st side: 4
+Enter Length of 1st side: 5
+The triangle with sides 3, 4, 5 is right angled 
