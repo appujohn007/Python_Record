@@ -1,2 +1,2 @@
 git pull
-python ./'Question 16'/code.py
+python ./'Question 12'/code.py
